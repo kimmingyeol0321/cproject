@@ -32,7 +32,7 @@ int main()
 	printf("배열의 크기 : %d byte\n", size);
 	int length = sizeof(iArray) / sizeof(int);
 	printf("배열의 길이 : %d\n", length);
-	printf("배열의 이름 : %p\n", iArray);
+	printf("배열의 이름 : %p\n", iArray); 
 	//배열은 같은 형태의 데이터를 묶어서 따로 관리하는 데이터입니다.
 	//각 배열의 요소는 일정한 간격으로 주소를 가지게 됩니다.
 	//배열의 첫번째 요소의 주소는 배열의 시작 주소입니다. 배열의 시작 주소는 배열의 이름입니다.
