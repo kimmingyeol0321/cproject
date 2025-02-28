@@ -1,2 +1,7 @@
-﻿  FileName.cpp
-  Project1.vcxproj -> C:\Users\user\Documents\GitHub\cproject\Project1\x64\Debug\Project1.exe
+﻿  17 함수 연습문제.c
+C:\Users\user\Documents\GitHub\cproject\Project1\17 함수 연습문제.c(95,10): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Documents\GitHub\cproject\Project1\17 함수 연습문제.c(129,2): warning C4013: 'printRank'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Documents\GitHub\cproject\Project1\17 함수 연습문제.c(143,2): warning C4013: 'isOdd'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+17 함수 연습문제.obj : error LNK2019: printRankmain 함수에서 참조되는 확인할 수 없는 외부 기호
+17 함수 연습문제.obj : error LNK2019: isOddmain 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\user\Documents\GitHub\cproject\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.

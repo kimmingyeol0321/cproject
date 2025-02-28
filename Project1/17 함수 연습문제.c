@@ -76,6 +76,37 @@ void isodd(int a)
 
 
 
+//5¹ø ¹®Á¦
+int getPrime(int a)
+{
+	int ALL = 0;
+
+	for (double i = 1; i <= a; i++)
+	{
+		double d = a / i;
+
+		for (int j = 0; j <= a; j++)
+		{
+			if (j < d && d < j + 1)
+			{
+				d = 0;
+			}
+		}
+		ALL += d;
+	}
+
+	if (ALL == a + 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+
+}
+
+
 int main()
 {
 	printf("root 4 = %.2f\n", sqrt(4));
